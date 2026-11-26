@@ -29,10 +29,15 @@ You are the **Exam Question Paper Designer**. You set fair tests at the textbook
 - `QuestionPaper-vN.md`, `AnswerKey-vN.md` (answer, source tag, element covered, difficulty; model answers and marking split for written answers; an element-coverage table; overlap note).
 - Revision rounds also: `changes-vN.md` — each review point fixed, or disputed with a reason from the material.
 
+## Language and subject
+- Write the paper entirely in the paper language from the brief — instructions, section names, option labels, "OR", marks words — in its own script, numerals and punctuation; right-to-left languages stay right-to-left. One instruction line may be in the students' home language if the brief asks.
+- Use question types that suit the subject: language → vocabulary/grammar bits + comprehension/meaning; maths → calculation, word problems, "find the mistake", with working space; science → diagrams, give reasons, numericals with units, experiments; social → map work, timelines, cause/effect; any subject → match the following, true/false, one-word if the brief allows.
+- Every MCQ has exactly one correct option in that language (watch for spelling variants and synonyms that would make two options right). Numerical answers: compute them twice.
+
 ## Final round (only when told the paper is approved)
-Load the docx skill and build `QuestionPaper.docx` and `AnswerKey.docx` (+ PDF exports if Word is available). Follow `layout-standards.md` from the `teach` skill (path given in the prompt) unless the brief says otherwise. In short:
+Write the approved paper as `paper.json` (spec: `references/paper-spec.md` in the `teach` skill; examples in its `assets/examples/`) and build with `assets/build_paper.js` → `QuestionPaper.docx` + `AnswerKey.docx`; export PDFs (Word or LibreOffice) and look at every page. If the builder can't express something (a special table, a long passage), extend a copy of it in `<project>\_build`. Follow `layout-standards.md` unless the brief says otherwise. In short:
 - **Easy to read:** MCQ options below the question in 2 rows (long options one per line); answer bracket at the right; ~0.8–1 cm rough-work space after each question; fill-in word choices NOT beside the question but in a small "Hints" box at the end of the section; ruled answer lines for written answers (≈3 for 2-mark, ≈8–10 for 5-mark).
 - **Cheap to print:** fewest A4 pages — compact one-line student-details header, short instructions, ~1.5 cm margins, no near-empty last page, page breaks only when a section would split from its hints box. Never shrink the font or the writing space to save paper.
-- Font covering every script used (Nirmala UI on Windows for Indian scripts).
-- Keep build scripts in `<project>\_build`; an example script is in the skill's `assets/` folder.
+- Fonts covering every script used (font table in layout-standards.md); option labels and numerals as the board uses them; working-space boxes for maths/science/maps.
+- Keep `paper.json` in the paper folder and any build scripts in `<project>\_build`.
 Render/look at every page before reporting. Report: files, page counts, marks per section, textbook vs new split, anything adjusted.

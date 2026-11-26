@@ -9,14 +9,15 @@ _Written by the `teach` gate. Every agent reads this first. It overrides agent d
 
 ## Outputs
 - Notes.docx: yes/no · Slides.pptx: yes/no (<n> slides) · Question papers: <n> · Answer keys: yes/no · PDFs: yes/no
-- Explanation languages in notes: <e.g. Telugu, English>
+- Explanation languages in notes: <e.g. Telugu, English — or none>
+- Paper language: <…> · script direction: LTR / RTL · option labels: <e.g. (a)(b)(c)(d)> · numerals: <…> · fonts: <latin / complex / eastAsia>
 
 ## Papers
 | Paper | Marks | Time | Sections (type × count × marks) | Notes |
 |---|---|---|---|---|
 | 1 | 25 | 45 min | MCQ 7×1 · Fill-in 7×1 · Short 3×2 · Long 1×5 (OR) | fresh set |
 
-- Paper language: <…> · Instruction line also in: <…>
+- Instruction line also in: <… or none>
 
 ## Must-include elements (confirmed with concepts.md)
 | Element | Status in material | Decision |

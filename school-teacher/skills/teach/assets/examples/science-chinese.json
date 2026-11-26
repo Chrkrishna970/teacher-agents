@@ -1,0 +1,20 @@
+{
+  "title": "单元测验 – 科学 – 五年级", "subtitle": "第三课：水的循环",
+  "totalMarks": 6, "time": "20 分钟",
+  "font": { "latin": "Microsoft YaHei", "eastAsia": "Microsoft YaHei" },
+  "labels": { "options": ["A.", "B.", "C.", "D."], "or": "或", "marks": "分", "mark": "分", "hints": "提示 – 选择正确的词",
+              "school": "（学校名称）", "name": "姓名", "cls": "班级", "roll": "学号", "date": "日期", "total": "总分", "time": "时间",
+              "page": "第", "of": "/", "end": "*** 祝你好运 ***", "instructions": "说明" },
+  "instructions": ["请回答所有问题。"],
+  "sections": [
+    { "title": "一、选择题", "marksText": "（2 × 1 = 2 分）", "type": "mcq",
+      "questions": [
+        { "q": "水受热后变成 –", "options": ["冰", "水蒸气", "雪", "石头"] },
+        { "q": "云是由什么形成的？", "options": ["小水滴", "沙子", "烟", "光"] }
+      ] },
+    { "title": "二、填空题", "marksText": "（2 × 1 = 2 分）", "type": "fill",
+      "questions": [ { "before": "水从天空落下叫做", "after": "。", "hint": "降水 / 蒸发 / 凝结" }, { "before": "水蒸气遇冷变成水叫做", "after": "。", "hint": "凝结 / 融化 / 沸腾" } ] },
+    { "title": "三、简答题", "marksText": "（1 × 2 = 2 分）", "type": "short",
+      "questions": [ { "q": "请写出水循环的两个阶段。", "marks": 2 } ] }
+  ]
+}

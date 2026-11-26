@@ -4,7 +4,7 @@ Collect each item; work it out from the material where you can; ask only for the
 
 ## 1. Main material
 - Material location: files / folder / photos / pasted text
-- Subject · class/grade · board/curriculum (e.g. CBSE, ICSE, AP SCERT, TS SCERT, state board) · medium of instruction
+- Subject · class/grade · board/curriculum (any country: e.g. CBSE, ICSE, a state board, Cambridge, IB, national curriculum) · medium of instruction
 - Book name and edition; lesson/unit list (from contents page)
 - Lessons in scope this time [one lesson first, so the teacher can check the style]
 - Page ranges per lesson (printed page numbers vs PDF page numbers)
@@ -15,13 +15,15 @@ Collect each item; work it out from the material where you can; ask only for the
 - Slide deck (.pptx) [yes]
 - Question paper(s) (.docx + PDF) [yes, 1]
 - Answer key (.docx + PDF) [yes]
-- Explanation languages in notes [medium + students' home language + English]
+- Explanation languages in notes [medium + students' home language if different; ask about English]
+- Paper language [medium of instruction] · instruction line in another language? · option labels and numerals the board uses · right-to-left script? · fonts for every script (layout-standards.md)
+- Teacher's own language for this conversation [the one they write in]
 - Slides per lesson [12–18]
 
 ## 3. Question-paper structure and count (per paper)
 - Number of papers / sets [1]; fresh questions in each? [yes]
 - Total marks [20] · time [marks ≤ 20 → 30 min; 25 → 45 min]
-- Sections: type × count × marks each — MCQ, fill in the blanks, match, true/false, one-word, short answer (2), long answer (4–5, with OR), diagram, numerical, comprehension passage
+- Sections: type × count × marks each — MCQ, fill in the blanks, match, true/false, one-word, short answer (2), long answer (4–5, with OR), diagram, numerical / solve with working space, map work, comprehension passage, letter/essay
 - Check that marks add up; if not, offer splits
 - Paper language and instruction-translation language [medium; one line in home language]
 

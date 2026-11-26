@@ -2,7 +2,9 @@
 
 A small "teaching staff" for [Claude Code](https://code.claude.com): give it a textbook (PDF, photos or text) for **any subject, class, board or language**, and it prepares:
 
-- **Notes** (`Notes.docx`) — child-friendly, interactive, with explanations in the languages you choose (e.g. Hindi lesson explained in Telugu and English)
+Any language (including right-to-left scripts like Urdu and Arabic, and Chinese/Japanese/Korean), any subject (languages, maths, sciences, social studies, computers, commerce…), any board or country.
+
+- **Notes** (`Notes.docx`) — child-friendly, interactive, with explanations in the languages you choose (e.g. a Hindi lesson explained in Telugu and English, a science lesson explained in Urdu)
 - **Slides** (`Slides.pptx`) for the classroom
 - **Question papers + answer keys** (`.docx` + PDF) — easy for students to read and write in, and cheap to print
 
@@ -50,13 +52,17 @@ Then start with:
 
 and point it at your textbook.
 
-**Needs:** Claude Code; Node.js 18+ (for building .docx/.pptx); Python with PyMuPDF helps to read PDFs whose text is garbled (old Indian-language fonts). Microsoft Word or LibreOffice is used to export and check PDFs.
+**Needs:** Claude Code; Node.js 18+ (for building .docx/.pptx); fonts for your language's script (built into Windows/macOS for most languages, or free [Google Noto](https://fonts.google.com/noto) fonts). Python with PyMuPDF helps to read PDFs whose text is garbled (legacy fonts). Microsoft Word or LibreOffice is used to export and check PDFs.
+
+## Tested
+
+The paper builder has been checked by printing to PDF in: English (maths, with working-space boxes and match-the-following), Hindi + Telugu, Tamil, Urdu (right-to-left) and Chinese (science). The examples are in `school-teacher/skills/teach/assets/examples/`.
 
 ## Customising
 
-- `school-teacher/skills/teach/references/presets.md` — must-include topic lists per subject (Hindi, Telugu, English, Maths, Science, Social). Add your own.
-- `school-teacher/skills/teach/references/layout-standards.md` — the printed paper layout and printing-cost rules.
-- `school-teacher/skills/teach/assets/example_build_paper.js` — a working build script from a real paper, to adapt.
+- `school-teacher/skills/teach/references/presets.md` — must-include topic lists: generic language list plus Hindi, Sanskrit, Telugu, Tamil, other Indian languages, Urdu/Arabic/Persian, English, foreign languages; Maths; Science (Physics, Chemistry, Biology); Social studies; Computers; Commerce; Arts/PE. Add your own.
+- `school-teacher/skills/teach/references/layout-standards.md` — printed layout, printing-cost rules, option labels per language, right-to-left, font table per script.
+- `school-teacher/skills/teach/assets/build_paper.js` + `references/paper-spec.md` — the paper/answer-key builder and its JSON format.
 - `school-teacher/agents/*.md` — the three agents' instructions.
 
 Standing rules a teacher gives ("every paper must include…") go into the project's `brief.md` / `teacher-rules.md`, so they apply to later papers automatically.

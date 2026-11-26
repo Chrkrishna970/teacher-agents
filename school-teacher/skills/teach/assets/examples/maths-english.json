@@ -1,0 +1,49 @@
+{
+  "title": "Unit Test – Mathematics – Class 7",
+  "subtitle": "Chapter 4: Simple Equations",
+  "totalMarks": 20,
+  "time": "40 minutes",
+  "font": "Segoe UI",
+  "rtl": false,
+  "labels": { "options": ["(a)", "(b)", "(c)", "(d)"], "or": "OR", "hints": "Hints – choose the right word" },
+  "instructions": ["All questions are compulsory.", "Show your working in the space given.", "Hints for Section B are at the end of that section."],
+  "sections": [
+    { "title": "Section A: Multiple choice", "marksText": "(4 × 1 = 4 marks)", "type": "mcq",
+      "instruction": "Choose the correct option and write its letter in the bracket.",
+      "questions": [
+        { "q": "The solution of x + 5 = 12 is –", "options": ["5", "7", "17", "12"] },
+        { "q": "Which of these is an **equation**?", "options": ["3x + 2", "x > 4", "2y = 10", "5 – 1"] },
+        { "q": "If 3m = 21, then m =", "options": ["7", "18", "24", "63"] },
+        { "q": "Transposing +4 in x + 4 = 9 gives –", "options": ["x = 9 + 4", "x = 9 – 4", "x = 4 – 9", "x = 9 × 4"] }
+      ] },
+    { "title": "Section B: Fill in the blanks", "marksText": "(3 × 1 = 3 marks)", "type": "fill",
+      "instruction": "Write the correct word or number in the blank.",
+      "questions": [
+        { "before": "A value of the variable that makes both sides equal is called the ", "after": ".", "hint": "solution / constant / term" },
+        { "before": "In 4x = 20, the value of x is ", "after": ".", "hint": "4 / 5 / 16" },
+        { "before": "In 2y + 3, the number 3 is called a ", "after": ".", "hint": "variable / constant / coefficient" }
+      ] },
+    { "title": "Section C: Match the following", "marksText": "(4 marks)", "type": "match",
+      "questions": [
+        { "q": "Match each equation with its solution.", "marks": 4, "leftTitle": "Equation", "rightTitle": "Solution",
+          "left": ["x – 3 = 2", "2x = 14", "x / 4 = 3", "5x + 1 = 11"], "right": ["x = 2", "x = 12", "x = 5", "x = 7"] }
+      ] },
+    { "title": "Section D: Solve", "marksText": "(3 + 3 + 3 = 9 marks)", "type": "work", "spaceCm": 4,
+      "instruction": "Solve and check your answer.",
+      "questions": [
+        { "q": "Solve: 3x – 4 = 11", "marks": 3 },
+        { "q": "The sum of three times a number and 7 is 25. Find the number.", "marks": 3 },
+        { "q": "Raju's father's age is 5 years more than three times Raju's age. His father is 44. Find Raju's age.", "marks": 3, "spaceCm": 5 }
+      ] }
+  ],
+  "answerKey": {
+    "notes": ["1 mark each in Sections A–B. Section D: 1 mark forming/arranging the equation, 1 mark working, 1 mark answer with check."],
+    "tables": [
+      { "title": "Answers", "columns": ["Q", "Answer", "Source", "Concept"], "widths": [800, 3800, 2400, 2700],
+        "rows": [["1", "(b) 7", "textbook ex 4.1", "solving"], ["2", "(c) 2y = 10", "new", "equation vs expression"], ["3", "(a) 7", "textbook ex 4.2", "division"],
+                 ["4", "(b) x = 9 – 4", "textbook p.82", "transposing"], ["5", "solution", "textbook p.78", "terms"], ["6", "5", "new", "division"],
+                 ["7", "constant", "textbook p.77", "terms"], ["8", "x–3=2 → x=5; 2x=14 → x=7; x/4=3 → x=12; 5x+1=11 → x=2", "new", "solving"],
+                 ["9", "x = 5", "textbook ex 4.2", "two-step"], ["10", "3n + 7 = 25 → n = 6", "textbook ex 4.4", "word problem"], ["11", "3r + 5 = 44 → r = 13 years", "textbook ex 4.4", "word problem"]] }
+    ]
+  }
+}
