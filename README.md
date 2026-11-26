@@ -36,7 +36,7 @@ teacher ──► gate (/teach) ──► brief.md
 In a Claude Code session (terminal, desktop app Code tab, or IDE):
 
 ```
-/plugin marketplace add <github-user>/<this-repo>
+/plugin marketplace add Chrkrishna970/teacher-agents
 /plugin install school-teacher@teacher-agents
 ```
 
