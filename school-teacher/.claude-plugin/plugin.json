@@ -1,0 +1,6 @@
+{
+  "name": "school-teacher",
+  "version": "1.0.0",
+  "description": "Teaching-staff agents for any subject, class, board or language: a gate skill that gathers the brief, a Main Teacher (concept scan, multilingual notes .docx + slides .pptx), an Exam Paper Designer (question paper + answer key, easy-to-read and cheap-to-print) and a Paper Tester (review loop until PASS).",
+  "keywords": ["teacher", "school", "question-paper", "exam", "notes", "slides", "india", "education"]
+}

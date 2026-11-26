@@ -1,0 +1,11 @@
+{
+  "name": "teacher-agents",
+  "owner": { "name": "Teacher Agents" },
+  "plugins": [
+    {
+      "name": "school-teacher",
+      "source": "./school-teacher",
+      "description": "Gate skill + Main Teacher, Exam Paper Designer and Paper Tester agents for any subject, class, board or language."
+    }
+  ]
+}
